@@ -13,7 +13,7 @@ The following is a list of curl commands that can be used to test the API once i
 
 Run the following command to use curl to create a new order.
 ```bash
-curl --data '{"FirstName": "Chris", "LastName": "Myers", "Address": {"Street1": "123 Abc St", "City": "Phoenix", "State": "AZ", "Zip": "123456"}}' http://<endpoint>:8080/api/order
+curl --data '{"FirstName": "Chris", "LastName": "Myers", "Address": {"Street1": "123 Abc St", "City": "Phoenix", "State": "AZ", "Zip": "123456"}, "ItemId": "21a0276a-ff97-4d5a-828b-ae13024f4aec", "Quantity": 5}' http://<endpoint>:8080/api/order
 ```
 **Find Order:**
 
